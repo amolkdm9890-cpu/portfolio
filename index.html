@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amol Kadam — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Amol Kadam — BSc Computer Science student and aspiring software developer.">
+</head>
+<body>
+    <div id="progress" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <h1>Amol Kadam</h1>
+                <p class="tagline">Software Developer & Problem Solver</p>
+            </div>
+
+            <button id="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+
+            <nav id="primary-nav" class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a class="resume-btn" href="amol_Resume.pdf" download aria-label="Download resume">📄 Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero container">
+            <div class="hero-left reveal">
+                <p class="eyebrow">Portfolio • Software Developer</p>
+                <h2>Hello, I'm <span class="accent">Amol Kadam</span></h2>
+                <p class="lead">BSc Computer Science student <span id="typed" data-words='["building web apps","creating data-driven systems","learning new tech","solving problems"]'></span></p>
+                <p>
+                    <a class="btn" href="#projects">See Projects</a>
+                    <a class="btn btn-outline" href="#contact">Contact Me</a>
+                </p>
+            </div>
+            <div class="hero-right reveal" aria-hidden="true">
+                <div class="profile-card">
+                    <img id="avatar" src="amol.jpeg" alt="AI robot avatar" class="avatar-img cartoon" loading="lazy" role="button" aria-label="Open avatar">
+                    <p class="small">Open to internships & freelance work</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container stats-row reveal" aria-label="Highlights">
+            <article class="stat-card">
+                <strong>3+</strong>
+                <span>Major projects completed</span>
+            </article>
+            <article class="stat-card">
+                <strong>4</strong>
+                <span>Core technologies in daily use</span>
+            </article>
+            <article class="stat-card">
+                <strong>Open</strong>
+                <span>To internships and freelance roles</span>
+            </article>
+        </section>
+
+        <section id="about" class="container section reveal">
+            <p class="section-kicker">About</p>
+            <div class="about-card">
+                <h3>Focused on building clean, reliable digital experiences</h3>
+                <p>I am a passionate and detail-oriented B.Sc. Computer Science student with strong skills in Python, Web Development, and Database Management. I enjoy building real-world projects that solve practical problems and improve user experience. I have developed projects such as a Smart Education Portal, Online Quiz System, and Student Management System using technologies like HTML, CSS, JavaScript, Python, and MySQL. Along with technical knowledge, I possess problem-solving abilities, debugging skills, and a strong understanding of OOP and DBMS concepts. I am continuously learning new technologies and improving my development skills to grow as a software developer. My goal is to work in a professional IT environment where I can contribute, learn, and build innovative solutions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="container section reveal">
+            <p class="section-kicker">Capabilities</p>
+            <h3>Technical skills</h3>
+            <div class="skills-grid">
+                <span class="skill">Python</span>
+                <span class="skill">Power BI</span>
+                <span class="skill">HTML & CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">Git</span>
+            </div>
+        </section>
+
+        <section id="experience" class="container section reveal">
+            <p class="section-kicker">Experience</p>
+            <h3>Learning and delivery experience</h3>
+            <div class="experience-overview">
+                <h4>Learning & Development Experience</h4>
+                <div class="experience-item">
+                    <h5>Academic Project Development</h5>
+                    <p>Worked on multiple academic and self-driven projects involving web development, database design, and backend integration. Developed responsive user interfaces, implemented CRUD operations, and designed database-driven applications using Python and MySQL.</p>
+                </div>
+                <div class="experience-item">
+                    <h5>Personal & Practical Projects</h5>
+                    <p>Built real-world applications and functional prototypes to strengthen problem-solving and development skills. Focused on improving UI/UX design, website responsiveness, performance optimization, and overall usability while gaining hands-on experience with modern web technologies.</p>
+                </div>
+                <div class="experience-item">
+                    <h5>Technical Exposure</h5>
+                    <p>Gained practical experience in frontend and backend development using HTML, CSS, JavaScript, Python, MySQL, Git, and GitHub. Continuously learning new technologies and applying them through projects and experimentation.</p>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section id="projects" class="container section reveal">
+            <p class="section-kicker">Work</p>
+            <h3>Selected projects</h3>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <p class="project-tag">Web App</p>
+                    <h4>Smart Education Portal</h4>
+                    <p>Responsive portal with authentication and MySQL-backed data.</p>
+                    <div class="project-footer">
+                        <span>HTML • CSS • MySQL</span>
+                        <a href="https://smartweb-2.onrender.com/" target="_blank" rel="noopener noreferrer">View details</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-tag">Interactive App</p>
+                    <h4>Online Quiz System</h4>
+                    <p>Interactive quiz app with timing and scoring features.</p>
+                    <div class="project-footer">
+                        <span>JavaScript • Logic</span>
+                        <a href="#contact">View details</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-tag">Database Tool</p>
+                    <h4>Student Management System</h4>
+                    <p>CRUD application built using Python and MySQL.</p>
+                    <div class="project-footer">
+                        <span>Python • MySQL</span>
+                        <a href="#contact">View details</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container section reveal">
+            <p class="section-kicker">Contact</p>
+            <h3>Let’s build something useful together</h3>
+            <div class="contact-card">
+                <p>Email: <a href="mailto:amolkdm9890@gmail.com">amolkdm9890@gmail.com</a></p>
+                <p>Phone: <a href="tel:+917822065492">+91-7822065495</a></p>
+                <div class="contact-links social-links">
+                    <a class="social-link github" href="https://github.com/amolkdm9890-cpu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.333-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.984-.399 3.003-.404 1.018.005 2.046.138 3.005.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.119 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.807 5.625-5.479 5.92.43.37.823 1.103.823 2.222 0 1.606-.014 2.899-.014 3.293 0 .32.216.694.825.576C20.565 21.796 24 17.297 24 12 24 5.373 18.627 0 12 0z"/></svg>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+
+                    <a class="social-link linkedin" href="https://linkedin.com/in/amol-kadam-810917328" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.026-3.036-1.849-3.036-1.85 0-2.134 1.445-2.134 2.94v5.665h-3.554V9h3.414v1.561h.049c.476-.9 1.637-1.849 3.368-1.849 3.602 0 4.268 2.37 4.268 5.455v6.285zM5.337 7.433c-1.144 0-2.07-.927-2.07-2.07 0-1.146.926-2.073 2.07-2.073 1.146 0 2.073.927 2.073 2.073 0 1.143-.927 2.07-2.073 2.07zm1.777 13.019H3.56V9h3.554v11.452z"/></svg>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+
+                    <a class="social-link instagram" href="https://www.instagram.com/amol_kadam_patil_05?igsh=enJqazdrZzN2dGto" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 2.003.248 2.47.415.6.22 1.03.483 1.48.93.45.45.71.88.93 1.48.167.467.36 1.264.415 2.47.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.248 2.003-.415 2.47-.22.6-.483 1.03-.93 1.48-.45.45-.88.71-1.48.93-.467.167-1.264.36-2.47.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-2.003-.248-2.47-.415-.6-.22-1.03-.483-1.48-.93-.45-.45-.71-.88-.93-1.48-.167-.467-.36-1.264-.415-2.47C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.206.248-2.003.415-2.47.22-.6.483-1.03.93-1.48.45-.45.88-.71 1.48-.93.467-.167 1.264-.36 2.47-.415C8.416 2.175 8.796 2.163 12 2.163zm0 1.838c-3.17 0-3.548.012-4.797.069-1.03.052-1.587.22-1.957.366-.497.19-.85.417-1.224.79-.374.374-.6.727-.79 1.224-.146.37-.314.927-.366 1.957-.057 1.249-.069 1.627-.069 4.797s.012 3.548.069 4.797c.052 1.03.22 1.587.366 1.957.19.497.417.85.79 1.224.374.374.727.6 1.224.79.37.146.927.314 1.957.366 1.249.057 1.627.069 4.797.069s3.548-.012 4.797-.069c1.03-.052 1.587-.22 1.957-.366.497-.19.85-.417 1.224-.79.374-.374.6-.727.79-1.224.146-.37.314-.927.366-1.957.057-1.249.069-1.627.069-4.797s-.012-3.548-.069-4.797c-.052-1.03-.22-1.587-.366-1.957-.19-.497-.417-.85-.79-1.224-.374-.374-.727-.6-1.224-.79-.37-.146-.927-.314-1.957-.366-1.249-.057-1.627-.069-4.797-.069z"/></svg>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+
+                    <a class="social-link whatsapp" href="https://wa.me/917822065495?text=Hello%20Amol" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0012 0C5.373 0 0 5.373 0 12c0 2.11.57 4.06 1.64 5.78L0 24l6.47-1.69A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12 0-1.98-.5-3.84-1.48-5.52zM12 21.4c-1.98 0-3.92-.52-5.62-1.5l-.4-.24L4 20l1.34-1.92-.26-.44A8.49 8.49 0 013.6 12 8.4 8.4 0 0112 3.6 8.4 8.4 0 0120.4 12 8.49 8.49 0 0112 21.4z"/></svg>
+                        <span class="sr-only">WhatsApp</span>
+                    </a>
+                    <a class="resume-btn" href="amol_Resume.pdf" download aria-label="Download resume">Download CV</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Amol Kadam</p>
+        </div>
+    </footer>
+
+    <!-- Image lightbox modal -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop" data-action="close"></div>
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="" />
+        </div>
+    </div>
+
+    <!-- Feedback section hidden; replaced by floating mail button -->
+    <section id="feedback" class="container section reveal" aria-hidden="true" style="display:none">
+        <!-- original feedback form kept for reference but hidden -->
+        <p class="section-kicker">Feedback</p>
+        <h3>Share your thoughts</h3>
+        <div class="feedback-card">
+            <p>Send a quick note about the website or your experience.</p>
+            <form id="feedbackForm" class="feedback-form">
+                <label class="sr-only" for="feedbackMessage">Your feedback</label>
+                <textarea id="feedbackMessage" rows="5" placeholder="Write your feedback..." required></textarea>
+                <button type="submit" class="btn">Send Feedback</button>
+            </form>
+            <div id="feedbackStatus" class="feedback-status" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <!-- Floating Gmail contact button (bottom-right) -->
+    <a class="gmail-float" href="mailto:amolkdm9890@gmail.com?subject=Portfolio%20Contact" aria-label="Email Amol" title="Email Amol">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="24" height="24" rx="6" fill="#ffffff"/>
+            <path d="M3 6.5C3 5.67 3.67 5 4.5 5h15c.83 0 1.5.67 1.5 1.5v11c0 .83-.67 1.5-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11z" fill="#d93025"/>
+            <path d="M21 6.5l-9 6-9-6" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
